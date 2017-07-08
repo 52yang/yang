@@ -34,7 +34,7 @@ test();
 
 ```
 
-4.动态加载css
+动态加载css
 
 ```JavaScript
 
