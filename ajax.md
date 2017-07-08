@@ -1,4 +1,4 @@
-
+原生ajax
 ```JavaScript
 
 /** 原生ajax **/
