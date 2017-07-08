@@ -42,4 +42,14 @@ var ajax = function (options) {
     }
 }
 
+//格式化参数 --- 处理参数
+function formatParams(data) {
+    var arr = [];
+    for (var name in data) {
+        arr.push(encodeURIComponent(name) + "=" + encodeURIComponent(data[name]));
+    }
+    arr.push(("v=" + Math.random()).replace(".",""));
+    return arr.join("&");
+}
+
 ```
