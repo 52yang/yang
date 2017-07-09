@@ -96,3 +96,5 @@ var Url = function (loc) {
 }(location);
 
 ```
+
+未完待续······
